@@ -39,7 +39,7 @@ app.post('/api/raw/applications', cpUpload, (req, res) => {
   }
 
   // Respond to client
-  res.status(204).json({ ok: true, message: "Application received! Check your server console for logs." });
+  res.status(204).json({ ok: true, message: "Application received! " });
 });
 
 
